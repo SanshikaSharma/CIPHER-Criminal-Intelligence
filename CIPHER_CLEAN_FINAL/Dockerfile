@@ -76,4 +76,4 @@ RUN useradd --create-home --shell /usr/sbin/nologin cipher \
 USER cipher
 EXPOSE 10000
 
-CMD ["/app/docker-entrypoint.sh"]
+CMD ["sh", "/app/docker-entrypoint.sh"]
